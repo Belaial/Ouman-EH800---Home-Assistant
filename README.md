@@ -27,3 +27,36 @@ Basic knowledge about Home Assistant configuration files and tools
 Your EH-800 is properly configured and working
 
 ##
+
+
+
+##
+### Configuration needed in Home Assistant
+
+1. First of all we need to add a shell command /homeassistant/configuration.yaml
+
+You need to replace ip, port, username & password with the values you configured in your EH-800!
+
+```
+shell_command:
+    ouman_logon: 'curl "http://ip.ip.ip.ip:port/login?uid=USERNAME;pwd=PASSWORD;" > /dev/null'
+```
+
+2. Create an automation that logs into EH-800 “every now and then”, the exact time out is unknown but for me 20 minutes work just fine.
+
+```
+alias: Log on to Ouman-EH800
+trigger:
+  - platform: time_pattern
+    minutes: "20"
+    alias: Log on every 20 minutes
+condition: []
+action:
+  - service: shell_command.ouman_logon
+    data: {}
+mode: single
+```
+
+3. Then create all the sensors / switches you want under /homeassistant/configuration.yaml
+
+   To see examples of sensors / switches please look at the the following files.
