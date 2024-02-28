@@ -1,4 +1,4 @@
-# Ouman EH800 - Home Assistant integration
+# Ouman EH-800 - Home Assistant integration
 
 ##
 ### Introduction:
@@ -45,7 +45,7 @@ shell_command:
 2. Create an automation that logs into EH-800 “every now and then”, the exact time out is unknown but for me 20 minutes work just fine.
 
 ```
-alias: Log on to Ouman-EH800
+alias: Log on to Ouman-EH-800
 trigger:
   - platform: time_pattern
     minutes: "20"
