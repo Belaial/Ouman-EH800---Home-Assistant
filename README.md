@@ -91,7 +91,7 @@ If you want to create your own sensors / switches you need to know the correct r
 ##
 ### Registers
 
-To see a reference table of known registers please look at the the following file TODO
+To see a reference table of known registers please look at the the following file [Registers](registers.txt)
 
 If the register you are looking for is not documented, you can try and find it by inpsecting the web interface of the EH-800
 
