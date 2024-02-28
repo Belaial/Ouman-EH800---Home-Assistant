@@ -59,4 +59,30 @@ mode: single
 
 3. Then create all the sensors / switches you want under /homeassistant/configuration.yaml
 
-   To see examples of sensors / switches please look at the the following files.
+Here is an example of a sensor and a switch
+
+```
+command_line:
+  - sensor:
+        name: Ouman EH-800 - Temperature Outside
+        command: 'curl "http://ip.ip.ip.ip:port/request?S_227_85" | cut -d '';'' -f 1 | cut -b 18-'
+        unit_of_measurement: "°C"
+        state_class: measurement
+        unique_id: 72711022-8cb5-4c40-8a49-f24655e62f96
+
+  - switch:
+      name: Ouman EH-800 - Home / Away (Off = Away // On = Home)
+      command_on: curl "http://ip.ip.ip.ip:port/update?S_135_85=0;"
+      command_off: curl "http://ip.ip.ip.ip:port/update?S_135_85=1;"
+      scan_interval: 120
+      command_state: curl http://ip.ip.ip.ip:port/request?S_135_85 --output - | cut -d ';' -f 1 | cut -b 18-
+      value_template: >
+        {% if value == "0" %}
+            true
+        {% else %}
+            false
+         {% endif %}
+      unique_id: 88ee5406-39ce-448e-a842-c7fc16efab2f
+```
+
+   To see more examples of sensors / switches and a reference table of known registers please look at the the following files TODO
