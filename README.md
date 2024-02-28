@@ -85,4 +85,14 @@ command_line:
       unique_id: 88ee5406-39ce-448e-a842-c7fc16efab2f
 ```
 
-   To see more examples of sensors / switches and a reference table of known registers please look at the the following files TODO
+If you want to create your own sensors / switches you need to know the correct registers.
+
+
+##
+### Registers
+
+To see a reference table of known registers please look at the the following file TODO
+
+If the register you are looking for is not documented, you can try and find it by inpsecting the web interface of the EH-800
+
+![Ouman EH-800 finding registers](ouman_eh_800_finding_registers.jpeg "Finding registers")
