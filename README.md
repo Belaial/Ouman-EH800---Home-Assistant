@@ -94,6 +94,6 @@ If you want to create your own sensors / switches you need to know the correct r
 To see a reference table of known registers please look at the the following file [Registers](registers.txt)
 
 If the register you are looking for is not documented, you can try and find it by inspecting the web interface of the EH-800, below is a quick "guide" how you can do that.
-If you can't find the register you are looking for, please visit the [Home Assistant Forum](https://community.home-assistant.io/t/how-to-control-your-ouman-eh-800-heating-controller-using-home-assistant/445244) to ask for help, I'm not that active on Github so no guarantees I will reply to created issues on this project!
+If you can't find the register you are looking for, please visit the [Home Assistant Forum](https://community.home-assistant.io/t/how-to-control-your-ouman-eh-800-heating-controller-using-home-assistant/445244) to ask for help.
 
 ![Ouman EH-800 finding registers](ouman_eh_800_finding_registers.jpeg "Finding registers")
