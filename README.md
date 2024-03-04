@@ -85,6 +85,9 @@ command_line:
       unique_id: 88ee5406-39ce-448e-a842-c7fc16efab2f
 ```
 
+4. As a last step you need to restart Home Assistant for all this to take effect (or at least reload "Command Line Entities" / "All YAML onfiguration" under Developer tools)
+
+
 If you want to create your own sensors / switches you need to know the correct registers.
 
 
