@@ -59,7 +59,7 @@ mode: single
 
 3. Then create all the sensors / switches you want under /homeassistant/configuration.yaml
 
-Here is an example of a sensor and a switch
+Here is an example of a sensor and a switch (You need to replace ip and port with our configured values)
 
 ```
 command_line:
