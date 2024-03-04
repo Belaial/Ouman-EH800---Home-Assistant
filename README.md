@@ -33,7 +33,7 @@ Your EH-800 is properly configured and working
 ##
 ### Configuration needed in Home Assistant
 
-1. First of all we need to add a shell command /homeassistant/configuration.yaml
+1. First of all we need to add a shell command in /homeassistant/configuration.yaml
 
 You need to replace ip, port, username & password with the values you configured in your EH-800!
 
@@ -57,7 +57,7 @@ action:
 mode: single
 ```
 
-3. Then create all the sensors / switches you want under /homeassistant/configuration.yaml
+3. Then create all the sensors / switches you want in /homeassistant/configuration.yaml
 
 Here is an example of a sensor and a switch (You need to replace ip and port with our configured values)
 
