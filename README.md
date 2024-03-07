@@ -7,6 +7,7 @@ This how-to is all about using the Ouman EH-800 heating controller with Home Ass
 
 More information, manuals and so on can be found here https://ouman.fi/en/product/ouman-eh-800-and-eh-800b/
 
+There is also an extra add-on package called EXP-800 if you need to control two different temperature circuits, more information about that here https://ouman.fi/en/products/ouman-unit-controllers/
 
 ### Credits:
 
