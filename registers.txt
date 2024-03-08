@@ -1,6 +1,5 @@
 # I only tried to format the layout to make it more readable, translations have not been inspected!
-# You can also check here if more registers are known and not documented
-# https://community.home-assistant.io/t/how-to-control-your-ouman-eh-800-heating-controller-using-home-assistant/445244
+# You can also check here https://community.home-assistant.io/t/how-to-control-your-ouman-eh-800-heating-controller-using-home-assistant/445244 if more registers are known and not documented here
 # H2 values are only usable if you have the EXP-800 addon to your EH-800, more information about EXP-800 can be found here https://ouman.fi/en/products/ouman-unit-controllers/
 
 S_26_85            Trendin näytteenottoväli                Trend sampling interval
