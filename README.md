@@ -16,6 +16,10 @@ There is also an extra add-on package called EXP-800 if you need to control two 
 Please visit the link above for help and further discussions, I just decided to try and keep all information collected in a good way since the forum-post has gotten quite messy over time, I will do my best to keep this page up to date with new changes if there are any.
 A special thanks goes out to all the people over at the Home Assistant forum for figuring all this out!
 
+There is also another Github repository you might wanna check out in case mine is missing something (or something is broken).
+
+https://github.com/mhumaloja/ouman_eh-800_HA
+
 ##
 ### Prerequisites:
 
